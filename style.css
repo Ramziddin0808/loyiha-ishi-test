@@ -1,0 +1,252 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: rgb(39, 37, 37);
+    width: 100px 70px;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+    border-radius:  15px ;
+}
+.blok, .rasm{
+    display: flex;
+    justify-items: center;
+    justify-content: space-between;
+    margin: 5px;
+    gap: 30px;
+}
+.blok-1, .matn{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    gap: 60px;
+    margin: 20px ;
+}
+.blok-1 .matn:hover{
+    transition: 1.2s;
+    margin: 10px;
+    background-color: red;
+    height: 30px;
+    cursor: pointer;
+}
+.rasm-2{
+    width: 450px;
+    height: 230px;
+}
+.rasm-2:hover{
+    cursor: pointer;
+}
+.blok .rasm:hover{
+    transform: scale(1.1);
+    transition: 1.2s;
+    cursor: pointer;
+}
+.mavzu{
+    text-align: center; 
+    font-size:medium ; 
+    font-family:fantasy;  
+    font-size: 40px;
+}
+.mavzu:hover{
+    color: rgb(156, 169, 52);
+    transition: 1.2s;
+}
+.box{
+    width: 450px;
+    height: 400px;
+    border:3px solid black;
+    overflow: hidden;
+    margin: 20px;
+    border-radius: 10px;
+}
+.bosh{
+    font-size: 30px;
+    text-align: center;
+    font-family:"Snell Roundhand, cursive";
+}
+.box:hover{
+    transform: scale(1.1);
+    transition: 1.2s;
+    box-shadow: 0 0 15px blue;
+}
+.bosh:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    color: blue;
+}
+.matn-1{
+    font-size: 15px;
+    text-align: center;
+}
+.box-2{
+    margin: 20px;
+    justify-content: space-between;
+    display: flex;
+    border: 3px solid black ;
+    width: 450px;
+    overflow: hidden;
+    height: 400px;
+    border-radius: 10px;
+}
+.box-0{
+    display: flex;
+    justify-content: space-between;
+}
+.matn-3{
+    font-size: 30px;
+    text-align: center;
+}
+.ich{
+    text-align: center;
+}
+.box-2:hover{
+    transform: scale(1.1);
+    transition: 1.2s;
+    box-shadow: 0 0 10px yellow;
+    cursor: pointer;
+}
+.matn-3:hover{
+    color: yellow;
+    transform: scale(1.1);
+}
+ .box-3 {
+    margin: 20px;
+    width: 450px ;
+    height: 400px;
+    border: 3px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.matn-4{
+    font-size: 25px;
+    text-align: center;
+}
+.matn-ichida{
+    text-align: center;
+}
+.box-3:hover{
+    box-shadow: 0 0 10px red
+}
+.matn-4:hover{
+    transform: scale(1.1);
+    color: red;
+    cursor: pointer;
+}
+.box-3:hover{
+    transform: scale(1.1);
+    transition: 1.2s;
+}
+.box-mant-4{
+    border: 5px solid black;
+}
+.box-katta-2{
+    display: flex;
+    justify-content: space-between;
+}
+.box-4{
+    width: 450px;
+    height: 400px;
+    border: 3px solid black;
+    margin: 20px;
+    border-radius: 10px ;
+    overflow: hidden;
+    cursor: pointer;
+}
+.matn-5{
+    font-size: 25px;
+    text-align: center;
+}
+.box-4:hover{
+    transform: scale(1.1);
+    transition: 1.2s;
+    box-shadow: 0 0 15px purple ;
+}
+.matn-5:hover{
+    color: purple;
+    transform: scale(1.1);
+}
+.box-5{
+    width: 450px;
+    height: 400px;
+    border: 3px solid black;
+    border-radius: 10px;
+    margin: 20px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.matn-6{
+    text-align: center;
+    font-size: 25px;
+}
+.matn-ichida-2{
+    text-align: center;
+}
+.box-5:hover{
+    transition: 1.2s;
+    transform: scale(1.1);
+    box-shadow:0 0 15px rgb(2, 247, 35);
+    cursor: pointer;
+}
+.matn-6:hover{
+    transform: scale(1.1);
+    color: rgb(28, 248, 4);
+}
+.box-6{
+    width: 450px;
+    height: 400px;
+    border:  3px solid black;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 20px;
+}
+.box-6:hover{
+    transition: 1.2s;
+    transform: scale(1.1);
+    box-shadow: 0 0 15px rgb(1, 194, 247);
+    cursor: pointer;
+}
+.matn-7{
+    text-align: center;
+    font-size: 20px;
+}
+.matn-7:hover{
+    color: aqua;
+}
+.matn-ichida-3{
+    text-align: center;
+}
+footer{
+    width: 100px 70px;
+    height: 90px;
+    background-color: rgb(54, 51, 51);
+    border-radius: 10px;
+    margin: 20px;
+}
+.rasm-3{
+    margin: 20px;
+    justify-content: space-between;
+    width: 50px;
+}
+  .i{
+align-items: center;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+.i:hover{
+
+    transition: 1.2s;
+    transform: scale(1.1);
+    background-color: blue;
+    cursor: pointer;
+}
+.rasm-3{
+    transform: scale(1.2);
+    transition: 1.2s;
+    cursor: pointer;
+}
